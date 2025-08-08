@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>What's your Favorite Slang for Saying Hi in Mexico</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">What's your Favorite Slang for Saying Hi in Mexico</h1>
+  <p id="description">Please fill out the survey below:</p>
+    <form id="survey-form" method="post" action="https://bigmexico.com">
+    <fieldset>
+    <label id="name-label" for="name">What is your name?<br><input id="name" placeholder="name" type="text" required /></label><br>
+    <label id="email-label" for="email">What is your email?<br><input id="email" name="email" placeholder="email" type="email" required /></label><br>
+    <label id="number-label" for="number">What is your age?<br><input id="number" name="age" placeholder="age" type="number" min="1" max="200" required /></label><br>
+    <label for="city">What city are you from?<br><input id="city" placeholder="city" type="text" required /></label><br>
+    <label for="part">What part of Mexico are you or your family from?<br><input id="part" placeholder="part" type="text" required /></label><br>
+    </fieldset>
+<br>
+    <fieldset>
+    <label for="holi"><input id="holi" name="slang" value="holi" type="checkbox" class="inline">Holi</label><br>
+    <label for="quiubo"><input id="quiubo" name="slang" value="quiubo" type="checkbox" class="inline">Quiubo</label><br>
+    <label for="klk"><input id="klk" name="slang" value="klk" type="checkbox" class="inline">klk</label><br>
+    <label for="que-rollo"><input id="que-rollo" name="slang" value="que-rollo" type="checkbox" class="inline">Que rollo</label><br>
+    <label for="que-transita"><input id="que-transita" name="slang" value="que-transita-por-tus-venas" type="checkbox" class="inline">Que transita por tus venas</label><br>
+    <label for="wasappen"><input id="wasappen" name="slang" value="wasappen" type="checkbox" class="inline">Wasappen como decia mi tio Beni</label><br>
+    </fieldset>
+    <fieldset>
+    <label for="slang-frequency">How often do you say these?</label><br>
+    <select id="dropdown" name="slang-frequency">
+    <option value="once-a-day">Once a day</option>
+    <option value="once-a-week">Once a week</option>
+    <option value="once-a-month">Once a month</option>
+    </select>
+    </fieldset>
+    <fieldset>
+        <label for="main-language">Which language do you speak mainly?</label><br>
+        <label for="english"><input id="language" type="radio" name="language" value="english" class="inline" checked /> English</label>
+        <label for="spanish"><input id="language" type="radio" name="language" value="spanish" class="inline" /> Spanish</label>
+    </fieldset>
+    <fieldset>
+    <label for="comment">Additional Comments:</label><br>
+    <textarea id="comment" name="comment" placeholder="comments" rows="5" cols="50"></textarea><br>
+  <button type="submit" id="submit" value="submit">Submit</button>
+   </form>
+</body>
+</html>
+
